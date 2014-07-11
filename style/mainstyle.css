@@ -1,0 +1,43 @@
+
+/***********************************
+             NAVIGATION
+************************************/
+
+nav ul {
+    list-style: none;
+    background-color: black;   
+    margin-top: 0;
+    text-align: center;
+    padding: 1.2em;  
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 2em 0 2em;
+}
+
+nav a{
+   text-decoration: none; 
+   font-family: 'Quicksand', sans-serif;
+   color:  white; 
+   font-size: 2em;
+}
+
+/***********************************
+             HEADER
+************************************/
+
+
+
+
+
+/***********************************
+             CONTENT
+************************************/
+
+
+
+
+/***********************************
+             FOOTER
+************************************/

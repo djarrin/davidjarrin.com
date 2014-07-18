@@ -2,15 +2,42 @@
 /***********************************
              NAVIGATION
 ************************************/
+nav{
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    background-color: black;   
+    margin-top: 0;
+    padding: 1.2em;  
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 2em 0 2em;
+}
+
+nav a{
+   text-decoration: none; 
+   font-family: 'Quicksand', sans-serif;
+   color:  white; 
+   font-size: 2em;
+}
 
 @media screen and (max-width: 768px) {
 		#menu {
 			width:1.4em;
 			display: block;
-			background:#ddd;
+			background:black;
 			font-size:1.35em;
 			text-align: center;
-		}
+            color: white;
+		} 
+        #mobileMenu {
+
+}
+       
 		#nav.js {
 			display: none;
 		}

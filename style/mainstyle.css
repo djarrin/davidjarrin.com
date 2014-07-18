@@ -3,29 +3,33 @@
              NAVIGATION
 ************************************/
 
-nav {
-    
-}
+@media screen and (max-width: 768px) {
+		#menu {
+			width:1.4em;
+			display: block;
+			background:#ddd;
+			font-size:1.35em;
+			text-align: center;
+		}
+		#nav.js {
+			display: none;
+		}
+		ul {
+			width:100%;
+			list-style:none;
+		}
+		li {
+			width:100%;
+			border-right:none;
+		}
+	}
 
-nav ul {
-    list-style: none;
-    background-color: black;   
-    margin-top: 0;
-    text-align: center;
-    padding: 1.2em;  
-}
+@media screen and (min-width: 768px) {
+		#menu {
+			display: none;
+		}
+	}
 
-nav li {
-    display: inline-block;
-    margin: 0 2em 0 2em;
-}
-
-nav a{
-   text-decoration: none; 
-   font-family: 'Quicksand', sans-serif;
-   color:  white; 
-   font-size: 2em;
-}
 
 /***********************************
              HEADER

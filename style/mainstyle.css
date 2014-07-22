@@ -26,44 +26,48 @@ nav a{
 }
 
 @media screen and (max-width: 768px) {
-		#menu {
-			width:1.4em;
-			display: block;
-			background:black;
-			font-size:1.35em;
-			text-align: center;
-            color: white;
-		} 
-        #mobileMenu {
-
-}
+    #menu {
+		width:1.4em;
+        display: block;
+		background:black;
+		font-size:1.35em;
+		text-align: center;
+        color: white;
+      
        
-		#nav.js {
-			display: none;
-		}
-		ul {
-			width:100%;
-			list-style:none;
-		}
-		li {
-			width:100%;
-			border-right:none;
-		}
+	} 
+    #menu #bars {
+      display: inline-block;
+}
+  
+   
+       
+	#nav.js {
+		display: none;
 	}
+	ul {
+		width:100%;
+		list-style:none;
+	}
+	li {
+		width:100%;
+		border-right:none;
+	}
+    header {
+        clear: both;
+    }
+}
 
 @media screen and (min-width: 768px) {
-		#menu {
-			display: none;
-		}
+	#menu {
+		display: none;
 	}
+}
 
 
 /***********************************
              HEADER
 ************************************/
-
-
-
 
 
 /***********************************

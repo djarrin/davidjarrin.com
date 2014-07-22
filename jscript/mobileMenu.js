@@ -1,4 +1,4 @@
-$("#nav").addClass("js").before('<div id="menu">&#9776 <span id="mobileHeader">David Jarrin</span></div>');;
+$("#nav").addClass("js").before('<div id="menu">&#9776</div>');;
 
 $("#menu").click(function(){
 	$("#nav").slideToggle();

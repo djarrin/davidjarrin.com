@@ -27,20 +27,26 @@ nav a{
 
 @media screen and (max-width: 768px) {
     #menu {
-		width:1.4em;
-        display: block;
+		width:15%;
+        display: inline-block;
 		background:black;
 		font-size:1.35em;
-		text-align: center;
         color: white;
-      
+        float: left;
+        height: 1.5em;
        
 	} 
-    #menu #bars {
-      display: inline-block;
-}
-  
-   
+
+    #mobileHeader {
+       display: inline-block; 
+       text-align: center;
+       background: black;
+       color:  red;
+       width:  85%;
+       height: 1.0em;
+       font-size: 2.0em;
+     
+    }   
        
 	#nav.js {
 		display: none;
@@ -62,6 +68,10 @@ nav a{
 	#menu {
 		display: none;
 	}
+    
+    #mobileHeader {
+        display: none;
+    }
 }
 
 

@@ -85,7 +85,37 @@ nav a{
              CONTENT
 ************************************/
 
+/***********************************
+             PORTFOLIO
+************************************/
 
+#sitePreview li {
+    list-style: none;
+}
+
+
+
+
+
+
+#overlay {
+  background:rgba(0,0,0,0.2);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#overlay img{
+    height: 200px;
+    width: 300px;
+    margin: 10% 0 0 0;
+    border: 3px solid grey;
+    border-radius: 5%;
+}
 
 
 /***********************************

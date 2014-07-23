@@ -28,7 +28,7 @@ nav a{
 @media screen and (max-width: 768px) {
     #menu {
 		width:15%;
-        display: inline-block;
+        display: block;
 		background:black;
 		font-size:1.35em;
         color: white;
@@ -38,7 +38,8 @@ nav a{
 	} 
 
     #mobileHeader {
-       display: inline-block; 
+       float: right;
+       display: block; 
        text-align: center;
        background: black;
        color:  red;

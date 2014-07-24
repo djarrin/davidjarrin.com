@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Quicksand); /*navigation font*/
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic); /*body font*/
 body {
     margin: 0;
+    background: #FAFAFA;
 }

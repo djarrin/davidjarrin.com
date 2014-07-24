@@ -4,6 +4,7 @@
 ************************************/
 nav{
     text-align: center;
+    box-shadow: 0 5px 5px #888888;
 }
 nav ul {
     list-style: none;
@@ -25,6 +26,8 @@ nav a{
    font-size: 2em;
 }
 
+
+
 @media screen and (max-width: 768px) {
     #menu {
 		width:15%;
@@ -34,7 +37,7 @@ nav a{
         color: white;
         float: left;
         height: 1.5em;
-       
+            
 	} 
 
     #mobileHeader {
@@ -68,6 +71,7 @@ nav a{
 @media screen and (min-width: 768px) {
 	#menu {
 		display: none;
+ 
 	}
     
     #mobileHeader {
@@ -84,6 +88,42 @@ nav a{
 /***********************************
              CONTENT
 ************************************/
+section {
+    margin: 50px 15% 0 15%;
+}
+
+p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5em;
+}
+
+/***********************************
+             ABOUT
+************************************/
+
+    #title {
+        font-family: 'Libre Baskerville', serif;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 2em;
+        margin: 2em 0 1.5em 0;
+}
+
+    .subtitle {
+        font-family: 'Libre Baskerville', serif;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+}
+
+   .interesting {
+        font-family: 'Libre Baskerville', serif;
+        text-align: center;
+        font-style: italic;
+        margin-bottom: 3em;
+}
+
 
 /***********************************
              PORTFOLIO

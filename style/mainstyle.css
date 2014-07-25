@@ -5,13 +5,15 @@
 nav{
     text-align: center;
     box-shadow: 0 5px 5px #888888;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 nav ul {
     list-style: none;
     background-color: black;   
-    margin-top: 0;
     padding: 1.2em;  
-    width: 100%;
+    margin: 0;
 }
 
 nav li {
@@ -29,15 +31,21 @@ nav a{
 
 
 @media screen and (max-width: 768px) {
+    nav {
+        top: 30px;
+}
     #menu {
 		width:15%;
         display: block;
 		background:black;
 		font-size:1.35em;
+        padding: 20px 0 20px 0;
         color: white;
         float: left;
         height: 1.5em;
-            
+        position: fixed;
+        top: 0;
+        box-shadow: 3px 5px 5px #888888;    
 	} 
 
     #mobileHeader {
@@ -45,15 +53,20 @@ nav a{
        display: block; 
        text-align: center;
        background: black;
+       padding: 20px 0 20px 0;
        color:  red;
        width:  85%;
        height: 1.0em;
        font-size: 2.0em;
-     
+       position: fixed;
+       top: 0;
+       right: 0;
+       box-shadow: 0 5px 5px #888888;
     }   
        
 	#nav.js {
 		display: none;
+       
 	}
 	ul {
 		width:100%;
@@ -69,7 +82,8 @@ nav a{
 }
 
 @media screen and (min-width: 768px) {
-	#menu {
+	
+    #menu {
 		display: none;
  
 	}
@@ -77,19 +91,23 @@ nav a{
     #mobileHeader {
         display: none;
     }
+
+   
 }
 
 
 /***********************************
              HEADER
 ************************************/
-
+header {
+    margin-top: 100px;
+}
 
 /***********************************
              CONTENT
 ************************************/
 section {
-    margin: 50px 15% 0 15%;
+    margin: 100px 15% 0 15%;
 }
 
 p {

@@ -32,7 +32,7 @@ nav a{
 
 @media screen and (max-width: 768px) {
     nav {
-        top: 30px;
+        top: 70px;
 }
     #menu {
 		width:15%;
@@ -44,7 +44,7 @@ nav a{
         float: left;
         height: 1.5em;
         position: fixed;
-        top: 0;
+        top:  0;
         box-shadow: 3px 5px 5px #888888;    
 	} 
 
@@ -100,7 +100,7 @@ nav a{
              HEADER
 ************************************/
 header {
-    margin-top: 100px;
+   margin-top: 72px;
 }
 
 /***********************************

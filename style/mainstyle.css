@@ -11,14 +11,15 @@ nav{
 }
 nav ul {
     list-style: none;
-    background-color: black;   
-    padding: 1.2em;  
+    background-color: black;     
     margin: 0;
+    padding: 0;
 }
 
 nav li {
     display: inline-block;
-    margin: 0 2em 0 2em;
+    margin: 15px 2em 0 2em;
+    padding: 1.2em;
 }
 
 nav a{
@@ -28,6 +29,11 @@ nav a{
    font-size: 2em;
 }
 
+.selected {
+    background: #CCCCCC;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
 
 
 @media screen and (max-width: 768px) {
@@ -45,7 +51,7 @@ nav a{
         height: 1.5em;
         position: fixed;
         top:  0;
-        box-shadow: 3px 5px 5px #888888;    
+         
 	} 
 
     #mobileHeader {
@@ -61,8 +67,12 @@ nav a{
        position: fixed;
        top: 0;
        right: 0;
-       box-shadow: 0 5px 5px #888888;
+       
     }   
+
+    .shadowBox{
+        box-shadow: 0 5px 5px #888888;
+    }
        
 	#nav.js {
 		display: none;
@@ -79,6 +89,10 @@ nav a{
     header {
         clear: both;
     }
+    .selected {
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -100,8 +114,10 @@ nav a{
              HEADER
 ************************************/
 header {
-   margin-top: 72px;
+   margin-top: 72px;   /*keeps photo onfront of nav bar*/
+   text-align: center;
 }
+
 
 /***********************************
              CONTENT
